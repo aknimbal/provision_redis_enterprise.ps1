@@ -1,8 +1,6 @@
 
 # Set variables
 $SUBSCRIPTION_ID = $(az account show --query id -o tsv)
-
-$SUBSCRIPTION_ID = "66816faa-eefa-4b9c-9bd6-79c5de539b3b"
 $CLUSTER_EAST = "aks-ai-cx-n-caching-eastus-rc"
 $CLUSTER_WEST = "aks-ai-cx-n-caching-westus-rc"
 $LOCATION_EAST = "East US"
